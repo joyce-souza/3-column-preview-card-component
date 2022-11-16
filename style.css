@@ -70,10 +70,11 @@ main {
     line-height: 30px;
 }
 
-.container__item1 > .learn__more {
+.container__item1 > .learn__more a {
     width: 150px;
     height: 50px;
     background-color: var(--very-light-gray);
+    text-decoration: none;
     font-family: 'Laxend Deca', sans-serif;
     font-size: .875rem;
     font-weight: 600;
@@ -118,10 +119,11 @@ main {
     line-height: 30px;
 }
 
-.container__item2 > .learn__more {
+.container__item2 > .learn__more a {
     width: 150px;
     height: 50px;
     background-color: var(--very-light-gray);
+    text-decoration: none;
     font-family: 'Laxend Deca', sans-serif;
     font-size: .875rem;
     font-weight: 600;
@@ -169,10 +171,11 @@ main {
     line-height: 30px;
 }
 
-.container__item3 > .learn__more {
+.container__item3 > .learn__more a{
     width: 150px;
     height: 50px;
     background-color: var(--very-light-gray);
+    text-decoration: none;
     font-family: 'Laxend Deca', sans-serif;
     font-size: .875rem;
     font-weight: 600;
@@ -249,7 +252,7 @@ main {
 
     body, html, main {
         width: 100%;
-        height: 135%;
+        height: 125%;
     }
     
     .container {
