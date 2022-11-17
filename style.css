@@ -14,8 +14,6 @@
 --very-light-gray: hsl(0, 0%, 95%);  /*background, headings, buttons*/
 }
 
-/*920 x 500*/
-
 
 body, html, main {
     width: 100%;
@@ -28,13 +26,13 @@ body {
 
 main {
     display: flex;
-    justify-content: center;
+    justify-content: center;    /*para centralizar o container*/
     align-items: center;
 }
 
 .container {
     max-width: 920px;
-    display: flex;
+    display: flex;               /*para tornar os container__item flex*/
     margin: 20px;
 }
 
@@ -188,11 +186,6 @@ main {
 
 
 
-
-
-
-
-
 @media (max-width: 730px) {
 
     body, html, main {
@@ -206,46 +199,43 @@ main {
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        margin: 20px;
     }
 
-.container__item1 {
-    max-width: 100%;
-    height: 450px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    padding: 30px 30px 30px 30px;
-}
+    .container__item1 {
+       max-width: 100%;
+       height: 450px;
+       border-top-left-radius: 10px;
+       border-top-right-radius: 10px;
+       padding: 30px 30px 30px 30px;
+    }
 
-.container__item2 {
-    max-width: 100%;
-    height: 450px;
-    padding: 30px 30px 30px 30px;
-}
+    .container__item2 {
+       max-width: 100%;
+       height: 450px;
+       padding: 30px 30px 30px 30px;
+    }
 
-.container__item3 {
-    max-width: 100%;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    height: 450px;
-    padding: 30px 30px 30px 30px;
-}
+    .container__item3 {
+       max-width: 100%;
+       border-bottom-left-radius: 10px;
+       border-bottom-right-radius: 10px;
+       height: 450px;
+       padding: 30px 30px 30px 30px;
+    }
 
-.container__item1 .box p {
+    .container__item1 .box p {
    font-size: 1.4375rem; 
+    }
+
+    .container__item2 .box2 p {
+       font-size: 1.4375rem; 
+    }
+
+    .container__item3 .box3 p {
+      font-size: 1.4375rem; 
+    }
+
 }
-
-.container__item2 .box2 p {
-    font-size: 1.4375rem; 
- }
-
- .container__item3 .box3 p {
-    font-size: 1.4375rem; 
- }
-
-}
-
-
 
 
 @media (max-width: 475px) {
@@ -261,71 +251,70 @@ main {
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        margin: 20px;
     }
 
-.container__item1 {
-    max-width: 100%;
-    height: 442px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    padding: 40px 40px 40px 40px;
-    align-items: flex-start;
-}
+    .container__item1 {
+       max-width: 100%;
+       height: 442px;
+       border-top-left-radius: 10px;
+       border-top-right-radius: 10px;
+       padding: 40px 40px 40px 40px;
+       align-items: flex-start;
+    }
 
-.container__item2 {
-    max-width: 100%;
-    height: 442px;
-    padding: 40px 40px 40px 40px;
-    align-items: flex-start;
-}
+    .container__item2 {
+       max-width: 100%;
+       height: 442px;
+       padding: 40px 40px 40px 40px;
+       align-items: flex-start;
+    }
 
-.container__item3 {
-    max-width: 100%;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    height: 442px;
-    padding: 40px 40px 40px 40px;
-    align-items: flex-start;
-}
+    .container__item3 {
+       max-width: 100%;
+       border-bottom-left-radius: 10px;
+       border-bottom-right-radius: 10px;
+       height: 442px;
+       padding: 40px 40px 40px 40px;
+       align-items: flex-start;
+    }
 
-.container__item1 .box p {
-   font-size: 1rem; 
-}
+    .container__item1 .box p {
+      font-size: 1rem; 
+    }
 
-.container__item2 .box2 p {
-    font-size: 1rem; 
-}
+    .container__item2 .box2 p {
+      font-size: 1rem; 
+    }
 
- .container__item3 .box3 p {
-    font-size: 1rem; 
-}
+    .container__item3 .box3 p {
+      font-size: 1rem; 
+    }
 
-.container__item1 .box h1 {
-    font-size: 1.875rem;
-}
+    .container__item1 .box h1 {
+      font-size: 1.875rem;
+    }
 
-.container__item2 .box2 h1 {
-    font-size: 1.875rem;
-}
+    .container__item2 .box2 h1 {
+      font-size: 1.875rem;
+    }
 
-.container__item3 .box3 h1 {
-    font-size: 1.875rem;
-}
+    .container__item3 .box3 h1 {
+      font-size: 1.875rem;
+    }
 
-.box {
-    height: 75%;
-    padding-right: 20px;
-}
+    .box {
+      height: 75%;
+      padding-right: 20px;
+    }
 
-.box2 {
-    height: 75%;
-    padding-right: 20px;
-}
+    .box2 {
+      height: 75%;
+      padding-right: 20px;
+    }
 
-.box3 {
-    height: 75%;
-    padding-right: 20px;
-}
+    .box3 {
+      height: 75%;
+      padding-right: 20px;
+    }
 
 }
